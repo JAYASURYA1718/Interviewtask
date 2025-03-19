@@ -4,7 +4,7 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import Layout from './Layout';
 import Home from './Home';
 import Contact from './ContactUs';
-import Products from './Furnitures';
+import Products from './Products';
 import About from './About';
 import Login from './LoginPage';
 
@@ -14,12 +14,11 @@ return(
   <Routes>
     <Route path='/' element={<Layout/>}>
     <Route index element={<Home/>}/>
-    <Route path='/Furnitures' element={<Products/>}/>
-    <Route path='/ContactUs' element={<Contact/>}/>
-    <Route path='/AboutUs' element={<About/>}/>
-    <Route path='/Login' element={<Login/>}/>
+    <Route path='/products' element={<Products/>}/>
+    <Route path='/contact' element={<Contact/>}/>
+    <Route path='/about' element={<About/>}/>
+    <Route path='/login' element={<Login/>}/>
     </Route>
-
   </Routes>
   </BrowserRouter>
 )
