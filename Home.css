@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    width:94%;
+    margin-left:3%;
+}
+.part1{
+    width:40%;
+}
+.part2{
+    width:60%;
+    overflow: hidden;
+    object-fit: cover;
+}
+.img-con>img{
+    width: 100%;
+    object-fit: cover;
+}
+.img-con{
+    width: 100%;
+    object-fit: cover;
+}
+.text>h1{
+  font-size:40px;
+  margin-top:30px;
+}
+.text>p{
+    margin-top:50px;
+    font-size:20px;
+    font-family:sans-serif;
+}
+.btn1,.btn2{
+    margin-top:60px;
+    padding:10px;
+    font-size: larger;
+}
+.btn1{
+    background-color: black;
+    color:white;
+}
+.btn2{
+    background-color: white;
+    margin-left:20px;
+}
